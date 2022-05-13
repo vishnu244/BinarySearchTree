@@ -17,6 +17,7 @@ bs1.Insert(16);
 bs1.Insert(63);
 bs1.Insert(67);
 
-bs1.Display(bs1);
+//bs1.Display(bs1);
 bs1.GetSize(bs1);
-
+bool result = bs1.IfExists(63, bs1);
+Console.WriteLine(result);
